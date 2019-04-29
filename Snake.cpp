@@ -199,7 +199,8 @@ const int field_cls::width = 79;
 int main() {
     field.clear();
     int choice;
-    cout << "Enter 1 to start the game: ";
+
+    cout <<"Use Arrow Keys to move the Snake\n Enter 1 to start the game: ";
     cin >> choice;
     if(choice==1){
 
